@@ -26,7 +26,7 @@ def get_book_recommendation(user_input):
 
 st.title("도서 추천 챗봇")
 
-user_input = st.text_input("어떤 책을 찾고 계신가요? (관심사, 장르 등을 입력해주세요)")
+user_input = st.text_input("어떤 책을 찾고 계신가요? (예시: 여행 관련 책 추천)")
 
 if user_input:
     recommendation = get_book_recommendation(user_input)
