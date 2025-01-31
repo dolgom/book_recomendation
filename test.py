@@ -76,7 +76,7 @@ st.markdown("""
 <style>
 .book-container {
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
     background-color: #f9f9f9;
