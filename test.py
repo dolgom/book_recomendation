@@ -82,7 +82,7 @@ if user_input:
             st.markdown(f"<h3 style='font-size: 25px;'>{result['author']}</h3>", unsafe_allow_html=True)
             st.write('\n')
 
-            st.markdown(f"<h3 style='font-size: 20px;'>{result['borrow_status']}</h3>", unsafe_allow_html=True)
+            st.markdown(f"<h3 style='font-size: 15px;'>{result['borrow_status']}</h3>", unsafe_allow_html=True)
             if result['borrow_status'] == '대출불가(예약불가)':
                 st.write('5명예약중')
     st.session_state.search_performed = True
