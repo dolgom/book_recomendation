@@ -38,7 +38,7 @@ def find_book_cover(search_term):
             return book['책표지']
     return None
 
-st.title("도서 추천 챗봇")
+st.title("큰글자도서 추천📕")
 
 user_input = st.text_input("어떤 책을 찾고 계신가요? (예시: 여행 관련 책 추천)")
 
