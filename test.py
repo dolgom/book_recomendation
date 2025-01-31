@@ -76,13 +76,13 @@ if user_input:
     for result in search_results:
         col1, col2 = st.columns([1, 3])
         with col1:
-            st.image(result['img_url'], width=150)
+            st.image(result['img_url'], width=160)
         with col2:
             st.subheader(result['title'])
-            st.markdown(f"<h3 style='font-size: 25px;'>{result['author']}</h3>", unsafe_allow_html=True)
+            st.markdown(f"<h3 style='font-size: 23px;'>{result['author']}</h3>", unsafe_allow_html=True)
             st.write('\n')
 
-            st.markdown(f"<h3 style='font-size: 15px;'>{result['borrow_status']}</h3>", unsafe_allow_html=True)
+            st.markdown(f"<h3 style='font-size: 18px;'>{result['borrow_status']}</h3>", unsafe_allow_html=True)
             if result['borrow_status'] == '대출불가(예약불가)':
                 st.write('5명예약중')
     st.session_state.search_performed = True
