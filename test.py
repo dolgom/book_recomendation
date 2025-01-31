@@ -34,19 +34,21 @@ def check_borrow_possible(search_title):
 
                 title = book.find_previous('a', class_='name goDetail').text.strip()
                 borrow_status = book.find('p', class_='txt').text.strip()
+                author = book.find_previous('dd', class_='author').find('span').text.strip()
+                author = author.rsplit(' ', 1)[0]
+
                 call_number = book.find_previous('dd', class_='data').find('span', string=lambda text: '청구기호' in text)
-            
                 call_number = call_number.text.split(': ')[1].strip()
                 if call_number not in call_numbers and '큰글' in call_number:
                     call_numbers.add(call_number)
                     
                     if search_title.lower() in title.lower():
                         if '대출가능' in borrow_status:
-                            results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출가능'})
+                            results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출가능', 'author' : author})
                         elif '예약초과' in borrow_status:
-                            results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출불가(예약불가)'})
+                            results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출불가(예약불가)', 'author' : author})
                         else:
-                            results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출불가(예약가능)'})
+                            results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출불가(예약가능)', 'author' : author})
 
 
 
@@ -61,7 +63,7 @@ def check_borrow_possible(search_title):
 
 
 
-st.title('송파도서관 큰글자 도서 검색')
+st.title('📚송파도서관 큰글자 도서 검색 🔍')
 
 # 세션 상태 초기화
 if 'search_performed' not in st.session_state:
@@ -77,6 +79,10 @@ if user_input:
             st.image(result['img_url'], width=150)
         with col2:
             st.subheader(result['title'])
+            st.markdown(f"<h3 style='font-size: 25px;'>{result['author']}</h3>", unsafe_allow_html=True)
+            st.write('\n')
+            st.write('\n')
+
             st.markdown(f"<h3 style='font-size: 20px;'>{result['borrow_status']}</h3>", unsafe_allow_html=True)
             if result['borrow_status'] == '대출불가(예약불가)':
                 st.write('5명예약중')
