@@ -63,13 +63,13 @@ def check_borrow_possible(search_title):
 
 
 
-st.title('📚송파도서관 큰글자 도서 검색 🔍')
+st.title('📚송파도서관 큰글자도서 검색')
 
 # 세션 상태 초기화
 if 'search_performed' not in st.session_state:
     st.session_state.search_performed = False
 
-user_input = st.text_input("검색할 도서 제목을 입력하세요:", key="search_input")
+user_input = st.text_input("검색할 도서 제목을 입력하세요🔍:", key="search_input")
 
 if user_input:
     search_results = check_borrow_possible(user_input)
