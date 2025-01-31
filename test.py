@@ -81,7 +81,6 @@ if user_input:
             st.subheader(result['title'])
             st.markdown(f"<h3 style='font-size: 25px;'>{result['author']}</h3>", unsafe_allow_html=True)
             st.write('\n')
-            st.write('\n')
 
             st.markdown(f"<h3 style='font-size: 20px;'>{result['borrow_status']}</h3>", unsafe_allow_html=True)
             if result['borrow_status'] == '대출불가(예약불가)':
