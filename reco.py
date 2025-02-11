@@ -4,7 +4,8 @@ import json
 import re
 
 # 키 설정
-genai.configure(api_key='AIzaSyCbXoQ0d210OC4jLntlwFBAG9nKoa__vWg')
+api_key = st.secret['genai_key']
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # JSON 파일에서 도서 데이터 불러오기
