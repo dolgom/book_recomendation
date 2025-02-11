@@ -4,7 +4,7 @@ import json
 import re
 
 # 키 설정
-api_key = st.secret['genai_key']
+api_key = st.secret['google_api_key']
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
