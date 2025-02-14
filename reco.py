@@ -9,7 +9,7 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # JSON 파일에서 도서 데이터 불러오기
-with open('input.json', 'r', encoding='utf-8') as f:
+with open('dff_data.json', 'r', encoding='utf-8') as f:
     books = json.load(f)
 
 def get_book_recommendation(user_input):
