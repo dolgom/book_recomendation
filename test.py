@@ -42,7 +42,7 @@ def check_borrow_possible(search_title):
                 if call_number not in call_numbers and '큰글' in call_number:
                     call_numbers.add(call_number)
                     
-                    if search_title.lower() in title.lower():
+                    if search_title in title:
                         if '대출가능' in borrow_status:
                             results.append({'title' : title, 'img_url' : img_url, 'borrow_status' : '대출가능', 'author' : author})
                         elif '예약초과' in borrow_status:
