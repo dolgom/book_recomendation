@@ -35,7 +35,7 @@ def extract_recommendations(text):
 
 def find_book_cover(search_term):
     for book in books:
-        if book['검색어'].lower() in search_term.lower() or search_term.lower() in book['제목'].lower():
+        if book['검색어'] in search_term or search_term in book['제목']:
             return book['책표지']
     return None
 
