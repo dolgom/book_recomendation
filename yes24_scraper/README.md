@@ -3,8 +3,8 @@
 ## 프로젝트 구조
 ~~~
 📁yes24_scraper/         
-├── 📁data/              # 스크래핑 결과(JSON 파일)가 저장될 폴더
-├── 📁scripts/           # 스크래핑 관련 스크립트 폴더
+├── data/              # 스크래핑 결과(JSON 파일)가 저장될 폴더
+├── scripts/           # 스크래핑 관련 스크립트 폴더
 │   ├── scraper.py     # 스크래퍼(main)
 │   ├── utils.py       # 스크래핑 관련 유틸리티 함수들
 │   └── merge_json.py  # 여러 JSON 파일을 합치기
