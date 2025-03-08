@@ -21,6 +21,7 @@ yes24에서 큰글자도서 정보(도서명, 저자, 카테고리, 페이지 �
 python3 -m venv .venv
 source .venv/bin/activate  # Mac/Linux
 ~~~
+📍오류 발생 시 Selected Interpreter를 Recommended로 변경하기
 
 ### 2. 필요한 패키지 설치
 ~~~
