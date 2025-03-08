@@ -1,6 +1,7 @@
 # 📚 yes24에서 큰글자도서의 정보를 스크래핑하기
 
 ## 프로젝트 구조
+~~~
 yes24_scraper/         
 ├── data/              # 스크래핑 결과(JSON 파일)가 저장될 폴더
 ├── scripts/           # 스크래핑 관련 스크립트 폴더
@@ -9,6 +10,7 @@ yes24_scraper/
 │   └── merge_json.py  # 여러 JSON 파일을 합치기
 ├── README.md          
 └── requirements.txt   # 필요한 파이썬 패키지 목록
+~~~
 
 ## 주요 기능
 : yes24에서 큰글자도서 정보(도서명, 저자, 카테고리, 페이지 수, 책 소개) 크롤링해 JSON 파일로 저장
