@@ -21,6 +21,9 @@
 - `📁 trending_searches/`  
   → 교보문고 실시간 검색어 크롤링 및 워드클라우드 생성 기능
 
+- `📁 gemini_recommender/`  
+  → Gemini API 기반 책 추천 로직
+
 - `📁 scripts/`  
   → 위 기능들을 실행하기 위한 메인 진입점 스크립트들
 
