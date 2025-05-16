@@ -12,4 +12,4 @@ python-dotenv==1.0.1
 pydantic==2.6.1
 python-multipart==0.0.9
 streamlit==1.32.0
-geopy
+geopy==2.4.0
