@@ -38,6 +38,8 @@ def get_unique_categories(json_path):
             categories.add(cat)
     return sorted(list(categories))
 
+
+
 # 도서관별 도서 정보 출력 함수 (반드시 페이지 분기문보다 위에 위치)
 def display_library_books(books):
     if not books:
@@ -88,6 +90,10 @@ models = _load_models()
 if page == "홈":
     st.markdown("""
         <style>
+        .main .block-container {
+            padding-top: 0rem !important;
+            margin-top: 0rem !important;
+        }
         .home-center {
             display: flex;
             flex-direction: column;
@@ -119,6 +125,7 @@ if page == "홈":
         }
         </style>
     """, unsafe_allow_html=True)
+
     st.markdown('<div class="home-center">', unsafe_allow_html=True)
     st.markdown('<div class="home-title">🔎큰글자도서 검색 및 추천 서비스</div>', unsafe_allow_html=True)
     st.markdown('<div class="home-desc">작은 글씨 때문에 책 읽기 불편하셨나요?<br>이제, 큰글자도서를 쉽고 빠르게 찾아보세요!<br><br>취향에 맞는 큰글자책 추천<br>원하는 책을 쉽게 검색<br>소장 도서와 대출 가능 여부 확인<br>지도에서 가까운 도서관 위치까지 한눈에!</div>', unsafe_allow_html=True)
