@@ -1,0 +1,42 @@
+[
+  {
+    "title": "감정이 늙지 않는 법",
+    "author": "와다 히데키",
+    "category": ["인문/심리"],
+    "page": 200,
+    "description": "인간의 본질적인 노화는 '감정의 노화'에서 시작한다. 최고의 노인정신의학 전문의 와다 히데키가 전하는 '감정이 늙지 않는 법'. 감정의 노화가 일찍 시작되는 한국인들이 꼭 한 번 읽어봐야 할 책.",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_5.jpg",
+    "keywords": ["감정", "노화", "심리"],
+    "mood_tags": ["실용적인"]
+  },
+  {
+    "title": "독서의 뇌과학",
+    "author": "가와시마 류타",
+    "category": "자연과학",
+    "page": 256,
+    "description": "깊이 있는 성찰, 독창적인 관점, 확장된 사고가 필요한 현대인들에게 이 책은 필수다. 뇌과학자 정재승 · 김대식 강력 추천! 하루 2분의 독서가 알츠하이머도 막아낸다는 사실을.",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_6.jpg",
+    "keywords": ["뇌과학", "독서", "건강"],
+    "mood_tags": ["전문적인"]
+  },
+  {
+    "title": "내 몸 바꾸는 식사법",
+    "author": "홍성민",
+    "category": "건강취미",
+    "page": 208,
+    "description": "패스트푸드라도 먹는 시간만 조절하면 비만을 막을 수 있다! 지금까지의 영양학이 '무엇을 얼마나 먹을까'를 중시했다면, 시간영양학은 한 걸음 더 나아가 '언제 먹을까?'에 주목한 새로운 학문이다.",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_7.jpg",
+    "keywords": ["건강", "식사", "다이어트"],
+    "mood_tags": ["실용적인"]
+  },
+  {
+    "title": "정의 수업",
+    "author": "라이언 홀리데이",
+    "category": "인문",
+    "page": 392,
+    "description": "악이 제대로 처벌받지 않는 불의의 시대에 가장 뜨겁게 물어야 할 질문! '그럼에도 절대 타협할 수 없는 것은 무엇인가?'",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_8.jpg",
+    "keywords": ["철학", "정의", "인생"],
+    "mood_tags": ["지적인"]
+  }
+] 

@@ -1,0 +1,52 @@
+[
+  {
+    "title": "헤르만 헤세의 나로 존재하는 법",
+    "author": "헤르만 헤세",
+    "category": "인문",
+    "page": 308,
+    "description": "헤르만 헤세의 문학 안에 깃든 삶의 철학. 흔들리는 당신을 위한 홀로서기 인생론. '자기답게 사는 것 외에 성장하고 진리에 이를 수 있는 다른 길은 없다.'",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_1.jpg",
+    "keywords": ["철학", "자기성찰", "인생"],
+    "mood_tags": ["지적인"]
+  },
+  {
+    "title": "어두울 때에야 보이는 것들이 있습니다",
+    "author": "슈테판 츠바이크",
+    "category": "인문",
+    "page": 148,
+    "description": "작가들의 작가 슈테판 츠바이크가 스스로 목숨을 끊기 전 남긴 마지막 '미공개' 에세이. 세계대전이라는 역사상 가장 어둡고 야만적이었던 시절에 남긴 글임에도 이 에세이는 인간에 대한 희망이 가득하고 우리에게 살아갈 용기를 건네며 유머러스하기까지 하다.",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_2.jpg",
+    "keywords": ["에세이", "인생", "희망"],
+    "mood_tags": ["감동적인"]
+  },
+  {
+    "title": "오늘도 돌아갑니다, 풍진동 LP가게",
+    "author": "임진평",
+    "category": ["소설/한국소설"],
+    "page": 360,
+    "description": "외로운 삶에 따스하게 재생되는 아날로그 감동 소설. 상처받은 마음도, 고단한 삶도 그저 다 흘러갈 뿐이야. 빙글빙글 돌아가는 레코드판처럼...",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_3.jpg",
+    "keywords": ["치유", "음악", "우정"],
+    "mood_tags": ["따뜻한"]
+  },
+  {
+    "title": "호텔 디어 그레이스",
+    "author": "민이안",
+    "category": ["소설/장르소설"],
+    "page": 304,
+    "description": "인생이 마음처럼 되지 않는 당신에게 신비로운 초대장 같은 이야기가 도착했다. 현실과 판타지가 절묘하게 교차하는 평범한 어른들의 성장소설.",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_4.jpg",
+    "keywords": ["성장", "판타지", "치유"],
+    "mood_tags": ["서늘한"]
+  },
+  {
+    "title": "감정이 늙지 않는 법",
+    "author": "와다 히데키",
+    "category": "인문",
+    "page": 200,
+    "description": "인간의 본질적인 노화는 '감정의 노화'에서 시작한다...",
+    "image_url": "https://image.aladin.co.kr/product/32397/97/cover500/k012935190_5.jpg",
+    "keywords": ["심리", "노화", "건강"],
+    "mood_tags": ["따뜻한"]
+  }
+] 

@@ -1,0 +1,63 @@
+
+                    <!DOCTYPE html>
+                    <html lang="ko">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Google Maps API</title>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ48wK0JK1wEmDrfwzQ_H94KPs64zIjn0&callback=initMap" async defer></script>
+                        <script>
+                            function initMap() {
+                                var center = { lat: 37.5618588, lng: 126.9468339 };
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: center,
+                                    zoomControl: true,
+                                    gestureHandling: "auto"
+                                });
+
+                                var userMarker = new google.maps.Marker({
+                                    position: center,
+                                    map: map,
+                                    title: "사용자 위치",
+                                    icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                                });
+
+                                var libraries = [{"name": "서울시교육청 마포평생학습관", "distance": 1.2412399590862455, "url": "https://mpllc.sen.go.kr", "lat": 37.5507, "lng": 126.9459}, {"name": "서울시교육청 서대문도서관", "distance": 1.8181301692726808, "url": "https://sdmlib.sen.go.kr", "lat": 37.5613, "lng": 126.9674}, {"name": "서울시교육청 마포평생아현분관", "distance": 1.87196342313481, "url": "https://ahyon.sen.go.kr", "lat": 37.545, "lng": 126.9462}];  // 이미 필터링된 3개 도서관 사용
+
+                                if (!Array.isArray(libraries) || libraries.length === 0) {
+                                    console.error("libraries 데이터가 없음!");
+                                    return;
+                                }
+
+                                let infoWindows = []; 
+
+                                libraries.forEach(lib => {
+                                    console.log("마커 추가됨:", lib.name); 
+
+                                    let marker = new google.maps.Marker({
+                                        position: { lat: lib.lat, lng: lib.lng },
+                                        map: map,
+                                        title: lib.name,
+                                        icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"  
+                                    });
+
+                                    let infoWindow = new google.maps.InfoWindow({
+                                        content: `<strong>${lib.name}</strong><br>거리: ${lib.distance.toFixed(2)} km<br><a href="${lib.url}" target="_blank">도서관 홈페이지</a>`
+                                    });
+
+                                    marker.addListener("click", function() {
+                                        infoWindows.forEach(win => win.close());
+                                        infoWindow.open(map, marker);
+                                        infoWindows.push(infoWindow);
+                                    });
+                                });
+                            }
+                        </script>
+                    </head>
+                    <body>
+                        <h2>가까운 도서관 지도</h2>
+                        <div id="map" style="width: 100%; height: 500px;"></div>
+                    </body>
+                    </html>
+                    

@@ -1,0 +1,162 @@
+[
+    {
+        "name": "송파도서관",
+        "lat": 37.5072,
+        "lng": 127.1269,
+        "base_url": "https://splib.sen.go.kr",
+        "search_url": "https://splib.sen.go.kr/splib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰글"
+    },
+    {
+        "name": "강남도서관",
+        "lat": 37.4979,
+        "lng": 127.0276,
+        "base_url": "https://gnlib.sen.go.kr",
+        "search_url": "https://gnlib.sen.go.kr/gnlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "강동도서관",
+        "lat": 37.5307,
+        "lng": 127.1237,
+        "base_url": "https://gdlib.sen.go.kr",
+        "search_url": "https://gdlib.sen.go.kr/gdlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "특수"
+    },
+    {
+        "name": "종로도서관",
+        "lat": 37.5702,
+        "lng": 126.9782,
+        "base_url": "https://jnlib.sen.go.kr",
+        "search_url": "https://jnlib.sen.go.kr/jnlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "남산도서관",
+        "lat": 37.5547,
+        "lng": 126.9750,
+        "base_url": "https://nslib.sen.go.kr",
+        "search_url": "https://nslib.sen.go.kr/nslib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "용산도서관",
+        "lat": 37.5286,
+        "lng": 126.9735,
+        "base_url": "https://yslib.sen.go.kr",
+        "search_url": "https://yslib.sen.go.kr/yslib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "특"
+    },
+    {
+        "name": "동대문도서관",
+        "lat": 37.5736,
+        "lng": 127.0393,
+        "base_url": "https://ddmlib.sen.go.kr",
+        "search_url": "https://ddmlib.sen.go.kr/ddmlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰글"
+    },
+    {
+        "name": "도봉도서관",
+        "lat": 37.6583,
+        "lng": 127.0280,
+        "base_url": "https://dblib.sen.go.kr",
+        "search_url": "https://dblib.sen.go.kr/dblib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "강서도서관",
+        "lat": 37.5583,
+        "lng": 126.8493,
+        "base_url": "https://gslib.sen.go.kr",
+        "search_url": "https://gslib.sen.go.kr/gslib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "서울시교육청 고덕평생학습관",
+        "lat": 37.5541,
+        "lng": 127.1224,
+        "base_url": "https://gdllc.sen.go.kr",
+        "search_url": "https://gdllc.sen.go.kr/gdllc/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰글"
+    },
+    {
+        "name": "서울시교육청 고척도서관",
+        "lat": 37.5155,
+        "lng": 126.8482,
+        "base_url": "https://gslib.sen.go.kr",
+        "search_url": "https://gslib.sen.go.kr/gslib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "특"
+    },
+    {
+        "name": "서울시교육청 구로도서관",
+        "lat": 37.4993,
+        "lng": 126.8842,
+        "base_url": "https://grlib.sen.go.kr",
+        "search_url": "https://grlib.sen.go.kr/grlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "서울시교육청 노원평생학습관",
+        "lat": 37.6536,
+        "lng": 127.0786,
+        "base_url": "https://nwllc.sen.go.kr",
+        "search_url": "https://nwllc.sen.go.kr/nwllc/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰글"
+    },
+    {
+        "name": "서울시교육청 동작도서관",
+        "lat": 37.5114,
+        "lng": 126.9422,
+        "base_url": "https://djlib.sen.go.kr",
+        "search_url": "https://djlib.sen.go.kr/djlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "장"
+    },
+    {
+        "name": "서울시교육청 마포평생아현분관",
+        "lat": 37.5450,
+        "lng": 126.9462,
+        "base_url": "https://ahyon.sen.go.kr",
+        "search_url": "https://ahyon.sen.go.kr/ahyon/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "서울시교육청 마포평생학습관",
+        "lat": 37.5507,
+        "lng": 126.9459,
+        "base_url": "https://mpllc.sen.go.kr",
+        "search_url": "https://mpllc.sen.go.kr/mpllc/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "서울시교육청 서대문도서관",
+        "lat": 37.5613,
+        "lng": 126.9674,
+        "base_url": "https://sdmlib.sen.go.kr",
+        "search_url": "https://sdmlib.sen.go.kr/sdmlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "시각"
+    },
+    {
+        "name": "서울시교육청 양천도서관",
+        "lat": 37.5234,
+        "lng": 126.8521,
+        "base_url": "https://yclib.sen.go.kr",
+        "search_url": "https://yclib.sen.go.kr/yclib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰"
+    },
+    {
+        "name": "서울시교육청 영등포평생학습관",
+        "lat": 37.5261,
+        "lng": 126.8954,
+        "base_url": "https://ydpllc.sen.go.kr",
+        "search_url": "https://ydpllc.sen.go.kr/ydpllc/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰글"
+    },
+    {
+        "name": "서울시교육청 정독도서관",
+        "lat": 37.5706,
+        "lng": 126.9763,
+        "base_url": "https://jdlib.sen.go.kr",
+        "search_url": "https://jdlib.sen.go.kr/jdlib/intro/search/index.do?menu_idx=4&search_text={query}",
+        "call_number_keyword": "큰글"
+    }
+]
